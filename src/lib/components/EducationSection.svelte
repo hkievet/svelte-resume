@@ -1,16 +1,18 @@
 <script lang="ts">
 	import type { IEducation } from '../../app';
 	import { makeDate } from '../make-date';
+	import SectionContainer from './layout/SectionContainer.svelte';
+	import SubHeader from './layout/SubHeader.svelte';
 
 	export let education: IEducation;
 </script>
 
-<div class="m-5">
-	<h3 class="text-lg">
+<SectionContainer>
+	<SubHeader>
 		{education.location}
-	</h3>
-	<p>
+	</SubHeader>
+	<p class="print:text-sm">
 		{makeDate(education.startDate)} - {makeDate(education.endDate)}
 	</p>
 	<p>{education.description}</p>
-</div>
+</SectionContainer>

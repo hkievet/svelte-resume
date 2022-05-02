@@ -1,27 +1,29 @@
 <script lang="ts">
-	import { Icon, ExternalLink } from 'svelte-hero-icons';
 	import type { IProject } from '../../app';
+	import ExternalLinkIcon from './ExternalLinkIcon.svelte';
+	import SectionContainer from './layout/SectionContainer.svelte';
+	import SectionHeader from './layout/SectionHeader.svelte';
 
 	export let project: IProject;
 </script>
 
-<div class="m-5 rounded-md">
-	<h2 class="text-xl">
+<SectionContainer class="rounded-md">
+	<SectionHeader>
 		{project.name}
-	</h2>
-	<p>{project.description}</p>
+	</SectionHeader>
+	<p class="mb-3">{project.description}</p>
 	{#if project.githubUrl}
 		<p>
 			<a href={project.githubUrl}>
 				View the code
-				<Icon class="inline-block" src={ExternalLink} size="32" />
+				<ExternalLinkIcon />
 			</a>
 		</p>
 	{/if}
 	<p>
 		<a href={project.demoUrl}>
 			{project.cta || 'Demo'}
-			<Icon class="inline-block" src={ExternalLink} size="32" slot="span" />
+			<ExternalLinkIcon />
 		</a>
 	</p>
-</div>
+</SectionContainer>

@@ -7,7 +7,7 @@ const nikeResponsibilities = [
   "Maintained a script present on every page on Nike.com responsible for localization and interacting with centralized APIs.",
 ];
 const nike: IResumeJob = {
-  companyName: "@ Nike (Future State Consulting)",
+  companyName: "Nike (Future State Consulting)",
   title: "Software Engineer III",
   bullets: nikeResponsibilities,
   startDate: "2021-05-02",

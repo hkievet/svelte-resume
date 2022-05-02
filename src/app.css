@@ -7,3 +7,13 @@
 body {
     @apply m-5 bg-black text-white
 }
+
+@media print {
+    body {
+        @apply mx-2
+    }
+
+    h2 {
+        @apply mb-1
+    }
+}
