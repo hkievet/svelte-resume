@@ -56,5 +56,12 @@ export const projects: IProject[] = [
     demoUrl: "https://happy-hsk-app.netlify.app/",
     description: "I made a little app for studying mandarin with Svelte.",
     cta: "Study for HSK 1",
+  },
+  {
+    name: "Hacker News ❤️ Notion",
+    githubUrl: "https://github.com/hkievet/hnnews-frontend",
+    demoUrl: "hnnews.h11y.com",
+    description: "Login with GitHub, connect to Notion, and view trending Hacker News stories and save them to table.",
+    cta: "Like HN stories and read them later when you have time.",
   }
 ];
