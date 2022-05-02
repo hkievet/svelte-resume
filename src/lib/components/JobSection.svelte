@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
 	import type { IResumeJob } from 'src/app';
 	export let job: IResumeJob;
 </script>

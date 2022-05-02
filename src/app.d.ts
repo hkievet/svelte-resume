@@ -23,3 +23,11 @@ export interface IEducation {
 	location: string;
 	description: string;
 }
+
+export interface IProject {
+	name: string;
+	githubUrl?: string;
+	demoUrl: string;
+	description: string;
+	cta?: string;
+}

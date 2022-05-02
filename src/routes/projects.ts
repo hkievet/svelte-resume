@@ -1,10 +1,4 @@
-export interface IProject {
-  name: string;
-  githubUrl?: string;
-  demoUrl: string;
-  description: string;
-  cta?: string;
-}
+import type { IProject } from "../app";
 
 export const projects: IProject[] = [
   {

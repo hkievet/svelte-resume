@@ -6,7 +6,7 @@
 	import { allJobs, allEducation } from '../lib/resume-data';
 </script>
 
-<div>
+<div class="bg-black text-white">
 	<h1>
 		<a href={'https://hunterkievet.com'}>Hunter Kievet</a>'s Resume
 	</h1>

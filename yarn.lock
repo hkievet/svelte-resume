@@ -560,6 +560,11 @@
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
 
+"@steeze-ui/heroicons@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@steeze-ui/heroicons/-/heroicons-1.1.1.tgz#6293367692ac807e85a1b8dd0fdbee492a08bfed"
+  integrity sha512-d38HRg0xHEwj3KfAxDraZHr1RG6/wC1nYMlX2LnBYt3ESvGYxdRP0KW/wqmNxN6bhwlsGsx60joYBsVCJ9w1OA==
+
 "@sveltejs/adapter-auto@next":
   version "1.0.0-next.40"
   resolved "https://registry.yarnpkg.com/@sveltejs/adapter-auto/-/adapter-auto-1.0.0-next.40.tgz#06dd8a02cd465b536b540a056f269feb33712677"
@@ -2534,6 +2539,13 @@ svelte-check@^2.2.6:
     source-map "^0.7.3"
     svelte-preprocess "^4.0.0"
     typescript "*"
+
+svelte-hero-icons@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/svelte-hero-icons/-/svelte-hero-icons-4.1.1.tgz#815e475753b57e2bfbdcc429c3b7c3fa8f6ffb06"
+  integrity sha512-DMTW4SAAMbnaZCzLGhkyw+H3mo7+xLMqGnh2EevvcvLrq/pKtb7I0ooMNwyd3jAJ0Aqxq+q01d0sHFSwPnZw4w==
+  dependencies:
+    "@steeze-ui/heroicons" "^1.1.1"
 
 svelte-hmr@^0.14.11:
   version "0.14.11"
