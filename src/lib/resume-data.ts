@@ -10,8 +10,8 @@ const nike: IResumeJob = {
   companyName: "@ Nike (Future State Consulting)",
   title: "Software Engineer III",
   bullets: nikeResponsibilities,
-  startDate: "2021-5-1",
-  endDate: "2021-5-24",
+  startDate: "2021-05-02",
+  endDate: "2022-05-24",
 };
 
 const oneOmeResponsibilities = [
@@ -26,8 +26,8 @@ const oneome: IResumeJob = {
   companyName: "OneOme",
   title: "Frontend Engineer",
   bullets: oneOmeResponsibilities,
-  startDate: "2020-1-1",
-  endDate: "2021-5-1",
+  startDate: "2020-01-02",
+  endDate: "2021-05-02",
 };
 const infiniteCampusResponsibilities = [
   "Redesigned and implemented a complex course-scheduling web application in Angular.",
@@ -40,8 +40,8 @@ const ic: IResumeJob = {
   companyName: "Infinite Campus",
   title: "Software Engineer II",
   bullets: infiniteCampusResponsibilities,
-  startDate: "2015-1-1",
-  endDate: "2019-1-1",
+  startDate: "2015-01-02",
+  endDate: "2019-01-02",
 };
 
 const mscResponsibilities = [
@@ -53,8 +53,8 @@ const msc: IResumeJob = {
   companyName: "Maverick Software Consulting",
   title: "Software Engineer Intern",
   bullets: mscResponsibilities,
-  startDate: "2014-4-1",
-  endDate: "2015-5-1",
+  startDate: "2014-04-02",
+  endDate: "2015-05-02",
 };
 
 const trResponsibilities = [
@@ -65,8 +65,8 @@ const tr: IResumeJob = {
   companyName: "Thomson Reuters",
   title: "Software Engineer Intern",
   bullets: trResponsibilities,
-  startDate: "2015-6-1",
-  endDate: "2015-9-30",
+  startDate: "2015-06-02",
+  endDate: "2015-09-30",
 };
 
 const mnDailyResponsibilities = [
@@ -78,8 +78,8 @@ const mnDaily: IResumeJob = {
   companyName: "Minnesota Daily",
   title: "Network Administrator",
   bullets: mnDailyResponsibilities,
-  startDate: "2013-12-1",
-  endDate: "2014-4-30",
+  startDate: "2013-12-02",
+  endDate: "2014-04-30",
 };
 
 const sitResponsibilities = [
@@ -91,22 +91,22 @@ const sitInvestmentAssociates: IResumeJob = {
   companyName: "Sit Investment Associates",
   title: "Fixed Income Intern",
   bullets: sitResponsibilities,
-  startDate: "2013-6-1",
-  endDate: "2014-1-30",
+  startDate: "2013-06-02",
+  endDate: "2014-01-30",
 };
 
 export const allJobs = [nike, oneome, ic, tr, msc, mnDaily, sitInvestmentAssociates];
 
 export const umn: IEducation = {
-  startDate: "2012-9-1",
-  endDate: "2016-5-1",
+  startDate: "2012-09-02",
+  endDate: "2016-05-02",
   location: "Curtis L. Carlson School of Management",
   description: "Computer Science and Management Information Systems BS",
 };
 
 export const cpy: IEducation = {
-  startDate: "2017-3-1",
-  endDate: "2017-6-1",
+  startDate: "2017-03-02",
+  endDate: "2017-06-02",
   location: "CorePower",
   description: "200 Hour Teach Training",
 };

@@ -1,15 +1,16 @@
 <script lang="ts">
 	import type { IEducation } from '../../app';
+	import { makeDate } from '../make-date';
 
 	export let education: IEducation;
 </script>
 
-<div>
-	<h3>
+<div class="m-5">
+	<h3 class="text-lg">
 		{education.location}
 	</h3>
 	<p>
-		{education.startDate} - {education.endDate}
+		{makeDate(education.startDate)} - {makeDate(education.endDate)}
 	</p>
 	<p>{education.description}</p>
 </div>
