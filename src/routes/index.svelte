@@ -8,6 +8,7 @@
 	import { ExternalLink, Icon } from 'svelte-hero-icons';
 	import ExternalLinkIcon from '$lib/components/ExternalLinkIcon.svelte';
 	import SectionHeader from '$lib/components/layout/SectionHeader.svelte';
+	projects.reverse();
 </script>
 
 <div>
@@ -23,7 +24,7 @@
 		<JobSection {job} />
 	{/each}
 	<SectionHeader class="print:hidden">Coding Samples</SectionHeader>
-	<div class="grid grid-cols-3 print:hidden">
+	<div class="grid grid-cols-1 lg:grid-cols-3 print:hidden">
 		<!-- <SimpleGrid columns={[1, 1, 2]} spacing="5">
 			{projectElements}
 		</SimpleGrid> -->
