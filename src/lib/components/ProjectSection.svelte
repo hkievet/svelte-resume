@@ -3,14 +3,15 @@
 	import ExternalLinkIcon from './ExternalLinkIcon.svelte';
 	import SectionContainer from './layout/SectionContainer.svelte';
 	import SectionHeader from './layout/SectionHeader.svelte';
+	import SubHeader from './layout/SubHeader.svelte';
 
 	export let project: IProject;
 </script>
 
-<SectionContainer class="rounded-md">
-	<SectionHeader>
+<SectionContainer class="rounded-md bg-zinc-800 p-5">
+	<SubHeader>
 		{project.name}
-	</SectionHeader>
+	</SubHeader>
 	<p class="mb-3">{project.description}</p>
 	{#if project.githubUrl}
 		<p>

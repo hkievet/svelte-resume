@@ -4,7 +4,7 @@
 	import JobSection from '$lib/components/JobSection.svelte';
 	import { allJobs, allEducation } from '$lib/resume-data';
 	import ProjectSection from '$lib/components/ProjectSection.svelte';
-	import { projects } from './projects';
+	import { projects } from '$lib/projects';
 	import { ExternalLink, Icon } from 'svelte-hero-icons';
 	import ExternalLinkIcon from '$lib/components/ExternalLinkIcon.svelte';
 	import SectionHeader from '$lib/components/layout/SectionHeader.svelte';
@@ -12,7 +12,7 @@
 </script>
 
 <div>
-	<h1 class="text-2xl print:text-center">
+	<h1 class="text-3xl print:text-center font-serif mb-3">
 		<a href={'https://hunterkievet.com'}>Hunter Kievet</a>
 	</h1>
 	<SectionHeader>Education</SectionHeader>

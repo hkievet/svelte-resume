@@ -2,7 +2,7 @@ import type { IEducation, IResumeJob } from "src/app";
 
 // Job Bullets
 const nikeResponsibilities = [
-  "Built components and assisted in the adoption of the Nike Design System",
+  "Built components and assisted in the adoption of the Nike Design System.",
   "Built the telemetry tool that scans GitHub Enterprise for usages of npm packages across various Nike repositories.",
   "Maintained a script present on every page on Nike.com responsible for localization and interacting with centralized APIs.",
 ];
@@ -70,7 +70,7 @@ const tr: IResumeJob = {
 };
 
 const mnDailyResponsibilities = [
-  "Updated and created back-ups of the Microsoft Server machines",
+  "Updated and created back-ups of the Microsoft Server machines.",
   "Worked a help desk for routine IT issues.",
 ];
 
@@ -83,8 +83,8 @@ const mnDaily: IResumeJob = {
 };
 
 const sitResponsibilities = [
-  "Automated data flow from Excel spreadsheets into a MS Access Database using VBA",
-  "Utilized the Bloomberg API to analyze trends in various fixed income assets",
+  "Automated data flow from Excel spreadsheets into a MS Access Database using VBA.",
+  "Utilized the Bloomberg API to analyze trends in various fixed income assets.",
 ];
 
 const sitInvestmentAssociates: IResumeJob = {
