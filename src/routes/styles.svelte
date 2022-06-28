@@ -1,5 +1,5 @@
 <script>
-	import DarkModeColors from '$lib/components/experimental/darkModeColors.svelte';
+	import DarkModeColors from '$lib/components/experimental/DarkModeColors.svelte';
 </script>
 
 <DarkModeColors />
