@@ -58,6 +58,13 @@ export const projects: IProject[] = [
     cta: "Study for HSK 1",
   },
   {
+    name: "IChing App",
+    githubUrl: "https://github.com/hkievet/iching",
+    demoUrl: "https://iching.h11y.com",
+    description: "A simple app for studying the I Ching.",
+    cta: "Study the I Ching",
+  },
+  {
     name: "Hacker News ❤️ Notion",
     githubUrl: "https://github.com/hkievet/hnnews-frontend",
     demoUrl: "hnnews.h11y.com",

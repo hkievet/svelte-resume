@@ -26,7 +26,7 @@ const oneome: IResumeJob = {
   companyName: "OneOme",
   title: "Frontend Engineer",
   bullets: oneOmeResponsibilities,
-  startDate: "2020-01-02",
+  startDate: "2019-01-02",
   endDate: "2021-05-02",
 };
 const infiniteCampusResponsibilities = [
