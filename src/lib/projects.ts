@@ -67,7 +67,7 @@ export const projects: IProject[] = [
   {
     name: "Hacker News ❤️ Notion",
     githubUrl: "https://github.com/hkievet/hnnews-frontend",
-    demoUrl: "hnnews.h11y.com",
+    demoUrl: "hn.h11y.com",
     description: "Login with GitHub, connect to Notion, and view trending Hacker News stories and save them to table.",
     cta: "Like HN stories and read them later when you have time.",
   }
