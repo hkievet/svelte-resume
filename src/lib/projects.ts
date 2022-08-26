@@ -70,5 +70,12 @@ export const projects: IProject[] = [
     demoUrl: "hn.h11y.com",
     description: "Login with GitHub, connect to Notion, and view trending Hacker News stories and save them to table.",
     cta: "Like HN stories and read them later when you have time.",
+  },
+  {
+    name: "This Resumé Website",
+    githubUrl: "https://github.com/hkievet/svelte-resume",
+    demoUrl: "https://hunterkievet.com",
+    description: "A resume/portfolio site made with Svelte.",
+    cta: "See my resumé.",
   }
 ];
