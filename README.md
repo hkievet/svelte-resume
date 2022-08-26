@@ -13,3 +13,4 @@ This website is generates a basic resumé website from data in the following fil
   - Pushing changes updates live site.
 * 100% Lighthouse Score
 * CMD-P (ctrl-p windows) for print view hides projects and includes link to the site.  Useful for exporting as pdf.
+* Made with Svelte, TypeScript, and Tailwind.
