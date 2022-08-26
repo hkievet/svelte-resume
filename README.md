@@ -2,8 +2,8 @@
 
 This website is generates a basic resumé website from data in the following files:
 
-src/lib/projects.ts
-src/lib/resume-data.ts
+- [](src/lib/projects.ts)
+- [](src/lib/resume-data.ts)
 
 `yarn` installs dependencies (`npm install -g yarn` to get yarn).
 `yarn dev` to test locally.
