@@ -14,7 +14,7 @@
 	</SubHeader>
 	<p class="mb-3">{project.description}</p>
 	{#if project.githubUrl}
-		<p>
+		<p class="mb-2">
 			<a href={project.githubUrl}>
 				View the code
 				<ExternalLinkIcon />
