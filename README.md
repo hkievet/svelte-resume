@@ -5,9 +5,9 @@ This website is generates a basic resumé website from data in the following fil
 - [Coding Project data](src/lib/projects.ts)
 - [Resume-related data](src/lib/resume-data.ts)
 
-`yarn` installs dependencies (`npm install -g yarn` to get yarn).
-`yarn dev` to test locally.
-`yarn build` generates .svelte-kit files.
+* `yarn` installs dependencies (`npm install -g yarn` to get yarn).
+* `yarn dev` to manually test locally.
+* `yarn build` generates .svelte-kit files.
 
 * Hosted on Netlify
   - Pushing changes updates live site.
