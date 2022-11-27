@@ -1,6 +1,8 @@
 import type { IEducation, IResumeJob } from 'src/app';
 
-const fictivResponsibilities = ['Improve on the export of a Dendron vault into a NextJS site.'];
+const fictivResponsibilities = [
+	"Lead the Injection Molding team's efforts in creating excellent user experiences."
+];
 const fictiv: IResumeJob = {
 	companyName: 'Fictiv',
 	title: 'Senior Software Engineer',
