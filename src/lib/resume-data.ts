@@ -1,13 +1,22 @@
 import type { IEducation, IResumeJob } from 'src/app';
 
+const fictivResponsibilities = ['Improve on the export of a Dendron vault into a NextJS site.'];
+const fictiv: IResumeJob = {
+	companyName: 'Fictiv',
+	title: 'Senior Software Engineer',
+	bullets: fictivResponsibilities,
+	startDate: '2022-10-10',
+	endDate: null
+};
+
 // Job Bullets
 const dendronResponsibilities = ['Improve on the export of a Dendron vault into a NextJS site.'];
 const dendron: IResumeJob = {
 	companyName: 'Dendron',
-	title: 'Founding Engineer',
+	title: 'Software Engineer',
 	bullets: dendronResponsibilities,
 	startDate: '2022-07-01',
-	endDate: null
+	endDate: '2022-10-01'
 };
 
 const nikeResponsibilities = [
@@ -104,7 +113,17 @@ const sitInvestmentAssociates: IResumeJob = {
 	endDate: '2014-01-30'
 };
 
-export const allJobs = [dendron, nike, oneome, ic, tr, msc, mnDaily, sitInvestmentAssociates];
+export const allJobs = [
+	fictiv,
+	dendron,
+	nike,
+	oneome,
+	ic,
+	tr,
+	msc,
+	mnDaily,
+	sitInvestmentAssociates
+];
 
 export const umn: IEducation = {
 	startDate: '2012-09-02',
