@@ -8,13 +8,31 @@
 	import { ExternalLink, Icon } from 'svelte-hero-icons';
 	import ExternalLinkIcon from '$lib/components/ExternalLinkIcon.svelte';
 	import SectionHeader from '$lib/components/layout/SectionHeader.svelte';
+	import SectionContainer from '$lib/components/layout/SectionContainer.svelte';
 	projects.reverse();
+	const skills = [
+		'TypeScript',
+		'React',
+		'Svelte',
+		'Tailwind',
+		'CSS',
+		'(Python, Node, PostgreSQL, AWS)'
+	];
 </script>
 
 <div>
 	<h1 class="text-3xl print:text-center font-serif mb-3">
 		<a href={'https://hunterkievet.com'}>Hunter Kievet</a>
 	</h1>
+	<SectionHeader>Skills</SectionHeader>
+	<SectionContainer>
+		Dabbled with many languages, frameworks, and tools... But my main squeezes:
+		<ul class="list-disc list-inside">
+			{#each skills as bullet}
+				<li class="print:text-sm">{bullet}</li>
+			{/each}
+		</ul>
+	</SectionContainer>
 	<SectionHeader>Education</SectionHeader>
 	{#each allEducation as education}
 		<EducationSection {education} />

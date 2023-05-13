@@ -81,7 +81,7 @@ export const projects: IProject[] = [
 		cta: 'See my resumé.'
 	},
 	{
-		name: 'This Resumé Website',
+		name: 'The H11Y Blog',
 		demoUrl: 'https://blog.h11y.com',
 		description: 'A blog with many unfinished posts.',
 		cta: 'Read some of my writing.'
