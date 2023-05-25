@@ -23,6 +23,12 @@ export const projects: IProject[] = [
 		cta: 'Learn some Catalan'
 	},
 	{
+		name: 'Faireoui',
+		demoUrl: 'https://faireoui.com',
+		description: 'An early attempt at a blog and attempt at working with JAMStack.',
+		cta: 'See my old blog'
+	},
+	{
 		name: 'Minesweeper',
 		githubUrl: 'https://github.com/hkievet/minesweeper',
 		demoUrl: 'https://minesweeper.h11y.com',
